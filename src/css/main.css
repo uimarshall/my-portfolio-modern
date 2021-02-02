@@ -102,6 +102,10 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
 }
+
+.project-stack span {
+  margin-bottom: 0.5rem;
+}
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;

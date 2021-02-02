@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Title from "./Title"
-import { FaCheckCircle } from "react-icons/fa"
+import { FaParagraph } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 
@@ -54,7 +54,7 @@ const Jobs = () => {
           {desc.map(item => {
             return (
               <div className="job-desc">
-                <FaCheckCircle className="job-icon" />
+                <FaParagraph className="job-icon" />
                 <p>{item.name}</p>
               </div>
             )
