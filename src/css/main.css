@@ -678,8 +678,9 @@ Projects
   font-size: 1.5rem;
 }
 .project-desc {
-  word-spacing: 15px;
+  word-spacing: 5px;
   color: var(--clr-grey-3);
+  text-align: justify;
 }
 .project-stack {
   margin-bottom: 1rem;
@@ -701,7 +702,7 @@ Projects
 }
 .project-icon {
   color: var(--clr-primary-5);
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   margin-right: 0.5rem;
   transition: var(--transition);
 }
