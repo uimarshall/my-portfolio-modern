@@ -263,7 +263,8 @@ Navbar
   }
   .nav-links a {
     text-transform: capitalize;
-    color: var(--clr-grey-1);
+    /* color: var(--clr-grey-1); */
+    color: #168b3b;
     font-weight: bold;
     letter-spacing: var(--spacing);
     transition: var(--transition);
@@ -414,7 +415,9 @@ Hero
   margin-top: -5rem;
   padding-top: 5rem;
   height: 100vh;
-  background: var(--clr-primary-10);
+  /* background: var(--clr-primary-10); */
+  background: #000000;
+
   position: relative;
 }
 
@@ -429,13 +432,21 @@ Hero
   margin-left: 0;
 }
 .hero-info {
-  background: var(--clr-primary-10);
+  /* background: var(--clr-primary-10); */
+  background: #000000;
 }
 .hero-img {
   display: none;
 }
-.hero-info h4 {
-  color: var(--clr-grey-5);
+body .hero-info h4 {
+  /* color: var(--clr-grey-5); */
+
+  font-size: 1.5rem;
+  color: #168b3b;
+  font-weight: bolder;
+}
+body .hero-info h1 {
+  color: #fff;
 }
 .hero-icons {
   justify-items: flex-start;

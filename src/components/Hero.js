@@ -1,4 +1,5 @@
 import React from "react"
+import Typical from "react-typical"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
@@ -45,7 +46,24 @@ const Hero = () => {
           <div>
             <div className="underline"> </div>
             <h1>Hi, i'm Marshall</h1>
-            <h4>Full-Stack Software Engineer</h4>
+
+            <h4 id="type-effect">
+              And i'm a {""}
+              <Typical
+                loop={Infinity}
+                wrapper="b"
+                steps={[
+                  "Full-Stack Engineer",
+                  1000,
+                  "Front-End Engineer!",
+                  1000,
+                  "Back-End Engineer!",
+                  1000,
+                  "Content Creator!",
+                  1000,
+                ]}
+              />
+            </h4>
             <Link to="/contact" className="btn">
               contact me
             </Link>
