@@ -11,7 +11,6 @@ module.exports = {
     author: "@marshall",
     twitterUsername: "@uimarshall",
     image: "/twitter-img.png",
-    siteUrl: "",
   },
   plugins: [
     `gatsby-transformer-sharp`,
