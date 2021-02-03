@@ -469,6 +469,11 @@ Hero
     display: block;
     grid-row: 1/1;
     grid-column: 6/-1;
+    border-radius: 50%;
+    border: 5px solid #00bf8b;
+    width: 380px;
+    height: 380px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1170px) {
@@ -512,6 +517,7 @@ Services
 .service p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  text-align: justify;
 }
 .service:hover {
   background: var(--clr-primary-5);
@@ -900,6 +906,11 @@ About Page
 .about-img {
   margin-bottom: 2rem;
   height: 25rem;
+  border-radius: 50%;
+  border: 5px solid #00bf8b;
+  width: 380px;
+  height: 380px;
+  margin-bottom: 30px;
 }
 .about-text .section-title {
   margin-bottom: 2rem;

@@ -5,21 +5,9 @@ import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
 // ...GatsbyImageSharpFluid
 // We will use Gatsby image, by using graphql to query it.
-const query = graphql`
-  {
-    file(relativePath: { eq: "hero-img.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
-
 // const query = graphql`
 //   {
-//     file(relativePath: { eq: "hero3-img.png" }) {
+//     file(relativePath: { eq: "hero-img.png" }) {
 //       childImageSharp {
 //         fluid {
 //           ...GatsbyImageSharpFluid
@@ -28,6 +16,18 @@ const query = graphql`
 //     }
 //   }
 // `
+
+const query = graphql`
+  {
+    file(relativePath: { eq: "hero3-img.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 const Hero = () => {
   // const data = useStaticQuery(query)
@@ -44,7 +44,7 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="underline"> </div>
-            <h1>Hi! i'm Marshall</h1>
+            <h1>Hi, i'm Marshall</h1>
             <h4>Full-Stack Software Engineer</h4>
             <Link to="/contact" className="btn">
               contact me

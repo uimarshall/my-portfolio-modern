@@ -13,7 +13,6 @@ export default ({ data }) => {
   } = data
   return (
     <Layout>
-      blogs
       <Hero />
       <Services />
       <Jobs />
